@@ -1,20 +1,37 @@
 # Notes-n-Stuff
-A Notepad/Paint Hybrid
 
-#WHY
+A lightweight Notepad/Paint hybrid built with the Qt Framework, combining quick text notes and freehand drawing in a single app.
 
-This program was made as practice for the QT Framework. I was already familiar with C++ but wanted to branch out into GUI coding. I choose to do a notepad/paint hybrid because I regularly use Post-It notes and the idea of having something I can quickly write AND draw in was something I was interested in.
+## About
 
-#WHAT
+I built this as a practice project to learn the Qt Framework, coming from a C++ background but new to GUI development. I use physical Post-it notes often, so I wanted a small desktop tool that let me jot text and sketch in the same space.
 
-This repository contains all the files that was used to create the program, they are located in the aptly named "Source File" folder. In the "Executable" folder you will find the program itself, feel free to use it.
+## Features
 
-#HOW
+- Combined text and drawing canvas
+- Lightweight, single-purpose note-taking tool
 
-QT Creator was used to make and compile this program. I also used the provided tutorials as a guide.
-For help with compiling the project, I recommend reading the documentation: https://doc.qt.io/qt-5/windows-deployment.html 
-And watching this video: https://youtu.be/8qozxqSZQEg
+## Download
 
-Thank you for reading,
+A pre-built executable is available on the [Releases page](../../releases).
 
--Sherman Powell
+## Building from Source
+
+### Prerequisites
+
+- [Qt Creator](https://www.qt.io/product)
+
+### Steps
+
+1. Clone this repository
+2. Open the project in Qt Creator
+3. Build and deploy following Qt's Windows deployment guide (linked below)
+
+## Resources
+
+- [Qt Windows Deployment Documentation](https://doc.qt.io/qt-5/windows-deployment.html)
+- [Qt Creator build tutorial (video)](https://youtu.be/8qozxqSZQEg)
+
+## Author
+
+Sherman Powell
